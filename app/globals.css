@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+:root {
+  --font-fraunces: "Fraunces", serif;
+  --font-inter: "Inter", sans-serif;
+  --font-plex-mono: "IBM Plex Mono", monospace;
+}
+
+body {
+  background-color: #12151a;
+  color: #ede8dd;
+  font-family: var(--font-inter);
+}
+
+.mono-num {
+  font-family: var(--font-plex-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background: #c89b3c;
+  color: #12151a;
+}
