@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabaseClient";
 
 const navItems = [
+  { label: "Dashboard", href: "/dashboard" },
   { label: "Finances", href: "/finances" },
   { label: "Operations", href: "/operations" },
   { label: "Forecast", href: "/forecast" },
