@@ -26,7 +26,7 @@ export default function LoginPage() {
       return;
     }
 
-    router.push("/finances");
+    router.push("/dashboard");
   }
 
   return (
