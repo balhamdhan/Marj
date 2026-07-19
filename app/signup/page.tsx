@@ -39,7 +39,7 @@ export default function SignupPage() {
 
     // If email confirmation is required, there will be no session yet.
     if (data.session) {
-      router.push("/finances");
+      router.push("/dashboard");
     } else {
       setMessage(
         "Account created — check your email to confirm your address before logging in."
