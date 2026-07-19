@@ -5,11 +5,10 @@ import { usePathname, useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabaseClient";
 
 const navItems = [
-     { label: "Finances", href: "/finances" },
-     { label: "Operations", href: "/operations" },
-     // Forecast will be added in the next build step
-   ];
-
+  { label: "Finances", href: "/finances" },
+  { label: "Operations", href: "/operations" },
+  { label: "Forecast", href: "/forecast" },
+];
 export default function Sidebar() {
   const pathname = usePathname();
   const router = useRouter();
